@@ -1,0 +1,43 @@
+# Các thư mục và tệp tạm thời
+node_modules/
+.cache/
+dist/
+build/
+tmp/
+.temp/
+
+# Các tệp log và tệp hệ thống
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+log/
+logs-*/
+
+# Thư mục cơ sở dữ liệu (nếu bạn sử dụng MongoDB, Redis, v.v.)
+data/
+
+# Thư mục và tệp cấu hình cục bộ
+.env
+.env.local
+.env.*.local
+
+# Thư mục và tệp cấu hình của IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Các tệp cấu hình cụ thể của ngôn ngữ hoặc framework
+*.iml
+*.swp
+*.DS_Store
+
+# Các tệp cấu hình của hệ thống tự động hoặc cơ sở dữ liệu
+.svn/
+Thumbs.db
+ehthumbs.db
+
+# Các tệp và thư mục tạm thời tạo bởi người dùng
+.DS_Store
+Desktop.ini
